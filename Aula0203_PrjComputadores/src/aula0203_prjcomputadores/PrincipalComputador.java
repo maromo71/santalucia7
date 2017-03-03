@@ -26,7 +26,7 @@ public class PrincipalComputador {
         c2.calcularValor();
         c2.imprimir();
         
-        int resposta = c2.alterarValor(-200);
+        int resposta = c2.alterarValor(200);
         if(resposta==1){
             System.out.println("Preco Alterado: " + c2.getPreco());
         }else{
